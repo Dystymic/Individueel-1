@@ -4,34 +4,59 @@
     box-sizing: border-box;
 }
 
-/* Navigation Styling */
-nav {
-    align-items: center;
-}
-
 /* Text Styling */
 p {
     text-align: center;
     font-family: 'Gill Sans MT';
-    margin: 2em;
     font-size: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 1em;
 }
 
 h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium';
     font-size: 1.1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 h2 {
-    text-align: center; 
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
 }
 
 /* Body Styling */
 main {
-    padding-bottom: 1em;
+    align-items: center;
+    flex-grow: 1;
 }
 
 footer {
     background-color: #ff9d00;
+    font-size: 0.5em;
+    color: white;
+    padding: 0.8em;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ff9d00;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
